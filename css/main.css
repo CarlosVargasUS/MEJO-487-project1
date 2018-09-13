@@ -36,13 +36,21 @@
     .dash {
         grid-column: dash;
         display: flex;
+        flex-direction: row;
         background: #33cc66;
         text-align: center;
     }
 
-    .topnav .search-container {
+
+
+    .topnav{
+        display:flex;
+        justify-content: flex-end;
+    } 
+    .search-container {
         float: right;
       }
+      
       .topnav input[type=text] {
         padding: 6px;
         margin-top: 8px;
@@ -55,14 +63,14 @@
         padding: 6px 10px;
         margin-top: 8px;
         margin-right: 16px;
-        background: #ddd;
+        background: white;
         font-size: 17px;
         border: none;
         cursor: pointer;
       }
       
       .topnav .search-container button:hover {
-        background: #ccc;
+        background: blue;
       }
     
       /* ANNOUNCEMENTS START HERE */
