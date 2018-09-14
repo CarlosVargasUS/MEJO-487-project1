@@ -1,7 +1,7 @@
 @supports(grid-area: auto) {
     .site {
         display: grid;
-        grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+        grid-template-columns: 10% 1fr 1fr 1fr 1fr 10%;
         grid-template-rows: 10% 110px 55px 45px 500px 10% 10% 10% 200px 60px;
         grid-template-areas: 
             'hd hd hd hd hd hd' 
@@ -78,9 +78,30 @@
         grid-column: news;
         display: flex;
         flex-direction: row;
-        background: #ffffff;
-        
+        border: solid;
+        border-width: 1px;
+        border-color:gray;
+        font-family: "Myriad Pro";  
+        font-family: 14pt;
     }
+
+    .title-announ {
+        display: flex;
+        justify-content: flex-start;
+        color:#fe7f13;
+        border-right: solid;
+        border-width: 1px;
+        border-color: gray; 
+    }
+
+    .text-announ{
+        display:flex;
+        justify-content: center;
+        border-right: solid;
+        border-width: 1px;
+        border-color:gray;  
+    }
+
 
     /* START SIDE BAR */
     .sidebar {
@@ -88,6 +109,11 @@
         display: flex;
         flex-direction: column;
         background: white;
+        border-right: solid;
+        border-left: solid;
+        border-bottom: solid;
+        border-width: 1px;
+        border-color:gray;
     }
 
     .numberCircle {
@@ -104,6 +130,12 @@
         text-align: center;
         
         font: 10px Arial, sans-serif;
+    }
+
+    .recommendations{
+        border-top: solid;
+        border-width: 1px;
+        border-color: gray;
     }
 
 
@@ -136,7 +168,9 @@
     .know {
         grid-column: know;
         background: #2498f4;
-        /* text-align: center; */
+        border:solid;
+        border-width: 1px;
+        border-color:gray;
     }
     .ads {
         grid-column: ads;
@@ -150,10 +184,6 @@
         grid-column: ft;
         background: red;
         text-align: center;
-    }
-    .start {
-        display: flex;
-        justify-content: flex-start;
     }
     .end {
         display: flex;
