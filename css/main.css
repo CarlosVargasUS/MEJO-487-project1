@@ -114,18 +114,28 @@
         border-bottom: solid;
         border-width: 1px;
         border-color:gray;
+        font-family: "Myriad Pro";
     }
 
     .tasks{
         display: flex;
         flex-direction: column;
     }
+
+    .side-titles{
+        padding-top:15px;
+        padding-left: 25px;
+        font-size: 1.6em;
+        color: #2498f4;
+    }
     
     .tasks-holder{
         display: flex;
         flex-direction: row;
-        align-items: center;
-        justify-content: space-between;
+        border-bottom: solid;
+        border-width: 1px;
+        border-color: gray;
+        padding:15px;
     }
 
     .circle {
@@ -143,19 +153,19 @@
     }
 
     .label{
+        display:flex;
+        justify-content: flex-start;
         font-size: 1.2em;
+        padding-left:10px;
+        padding-right:10px;
+        color: #2498f4;
     }
 
-    .side-titles{
-        font-size: 1.6em;
-        color:#208de4;
+    .count{
+        display: flex;
+        justify-content: flex-end;
     }
 
-    .recommendations{
-        border-top: solid;
-        border-width: 1px;
-        border-color: gray;
-    }
 
 
     .bar-chart {
