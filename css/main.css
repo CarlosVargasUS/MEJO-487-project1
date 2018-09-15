@@ -167,12 +167,13 @@
     }
 
 
-
+    /* BAR CHART STARTS HERE */
     .bar-chart {
         grid-column: bar;
         background: purple;
         text-align: center;
     }
+    /* DONUT STARTS HERE */
     .donut {
         grid-area: donut;
         background: orange;
