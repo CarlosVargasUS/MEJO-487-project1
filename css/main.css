@@ -15,6 +15,9 @@
             '. ads ads ads ads .'
             'ft ft ft ft ft ft';
     }
+
+    /* HEADER STARTS HERE */
+
     .header {
         grid-column: hd;
         display: flex;
@@ -27,6 +30,11 @@
         font-family: 'Myriad Pro';
         color:white;
     }
+
+    .header-title.spacer.header-help.header-settings{
+        padding: 1%;
+    }
+
     .nav-bar {
         display:flex;
         justify-content: center;
@@ -42,41 +50,30 @@
         grid-column: dash;
         display: flex;
         flex-direction: row;
+        justify-content: space-between;
         background: #33cc66;
         text-align: center;
     }
 
+    .dash-title{
+        display: flex;
+        justify-content: center;
+        align-items:center;
+        color:white;
+        padding: 3%;
+    }
 
+    .search{
+        display: flex;
+        flex-direction: row;
+    }
 
-    .topnav{
+    .mag-glass{
         display:flex;
-        justify-content: flex-end;
-    } 
-    .search-container {
-        float: right;
-      }
-      
-      .topnav input[type=text] {
-        padding: 6px;
-        margin-top: 8px;
-        font-size: 17px;
-        border: none;
-      }
-      
-      .topnav .search-container button {
-        float: right;
-        padding: 6px 10px;
-        margin-top: 8px;
-        margin-right: 16px;
-        background: white;
-        font-size: 17px;
-        border: none;
-        cursor: pointer;
-      }
-      
-      .topnav .search-container button:hover {
-        background: blue;
-      }
+        justify-content: center;
+        align-items: center;
+        
+    }
     
       /* ANNOUNCEMENTS START HERE */
     .news {
