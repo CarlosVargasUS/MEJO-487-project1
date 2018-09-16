@@ -108,7 +108,7 @@
     }
 
 
-    /* START SIDE BAR */
+    /* SIDE BAR START  */
     .sidebar {
         grid-area: side;
         display: flex;
@@ -172,16 +172,29 @@
 
 
     /* BAR CHART STARTS HERE */
-    .bar-chart {
+    .bar-analytics {
         grid-column: bar;
-        background: purple;
-        text-align: center;
+        display: flex;
+        flex-direction: column;
+        padding: 10%;
+        overflow: hidden;
+    }
+
+    .bar-summary{
+        display: flex;
+        flex-direction: row;
+    }
+
+    .bar-chart{
+        overflow: hidden;
     }
     /* DONUT STARTS HERE */
     .donut {
         grid-area: donut;
-        background: orange;
-        text-align: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
         border-right: solid;
         border-width: 1px;
         border-color: gray;
@@ -234,10 +247,12 @@
     .card{
         display:flex;
         flex-direction: column;
+        justify-content: center;
+        align-items: center;
         border: solid;
         border-width: 1px;
         border-color: gray;
-        padding: 15%; 
+        
 
     }
 
