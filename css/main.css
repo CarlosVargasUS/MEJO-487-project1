@@ -60,7 +60,7 @@
         justify-content: center;
         align-items:center;
         color:white;
-        padding: 3%;
+        padding-left: 3%;
     }
 
     .search{
@@ -330,13 +330,28 @@
         border-color: gray;
     }
 
+
+
+
     /* DID YOU KNOW CARD */
-    .know {
+
+    .know-banner{
         grid-column: know;
+        margin: 3%;
+
+
+    }
+
+    .know {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
         border:solid;
         border-width: 1px;
         border-color:gray;
         padding: 5%;
+        background: #2498f4;
     }
 
     .know-holder{
@@ -350,12 +365,12 @@
         color:white;
     }
 
-    .arrow-left{
+    .know-arrow-left{
         display:flex;
         justify-content: flex-start;
     }
 
-    .arrow-right{
+    .know-arrow-right{
         display:flex;
         justify-content: flex-end;
     }
@@ -363,8 +378,9 @@
         grid-column: ads;
         display: flex;
         flex-direction: row;
+        align-items: center;
         /* justify-content: space-between; */
-        justify-content: center;
+        justify-content: space-evenly;
         background: #2498f4;
     }
     .footer {
