@@ -27,10 +27,11 @@
 .donut-referrals, .info-cards-avatar-green, .info-cards-avatar-orange, .customers-green, .customers, 
 .dashboard-green, .dashboard, .messages-green, .messages, .promotions-green, 
 .promotions, .promotions-green, .page-creator, .page-creator-green, .analytics, 
-.analytics-green, .dashboard-search-icon, .know-arrow-left, .know-arrow-right, .media-checked-box, 
-.news-left-arrow, .news-right-arrow, .recom-checklist-green, .header-help, .header-settings, 
-.tasks-blue-person, .tasks-gray-person, .tasks-settings, .recom-article-green, .media-unchecked-box, 
-.recom-tip-lightbulb, .spacer
+.analytics-green, .footer-avatar, .dashboard-search-icon, .know-arrow-left, .know-arrow-right, 
+.media-checked-box, .news-left-arrow, .news-right-arrow, .recom-checklist-green, .header-help, 
+.header-settings, .tasks-blue-person, .tasks-gray-person, .tasks-settings, .recom-article-green, 
+.media-unchecked-box, .footer-avatar-facebook, .footer-avatar-foursquare, .footer-avatar-twitter, .footer-avatar-youtube, 
+.footer-pull-up, .recom-tip-lightbulb, .spacer
 { display: inline-block; background: url('../img/sprite.png') no-repeat; overflow: hidden; text-indent: -9999px; text-align: left; }
  
 .background-nav-bar { background-position: -1px -0px; width: 1200px; height: 110px; }
@@ -59,6 +60,7 @@
 .page-creator-green { background-position: -1089px -380px; width: 45px; height: 50px; }
 .analytics { background-position: -663px -286px; width: 42px; height: 50px; }
 .analytics-green { background-position: -1135px -380px; width: 42px; height: 50px; }
+.footer-avatar { background-position: -163px -382px; width: 40px; height: 40px; }
 .dashboard-search-icon { background-position: -1177px -277px; width: 23px; height: 22px; }
 .know-arrow-left { background-position: -1177px -300px; width: 22px; height: 50px; }
 .know-arrow-right { background-position: -681px -337px; width: 22px; height: 50px; }
@@ -66,12 +68,17 @@
 .news-left-arrow { background-position: -1177px -351px; width: 22px; height: 22px; }
 .news-right-arrow { background-position: -423px -380px; width: 22px; height: 22px; }
 .recom-checklist-green { background-position: -1178px -380px; width: 22px; height: 20px; }
-.header-help { background-position: -163px -382px; width: 20px; height: 20px; }
-.header-settings { background-position: -184px -382px; width: 20px; height: 20px; }
-.tasks-blue-person { background-position: -205px -382px; width: 20px; height: 20px; }
-.tasks-gray-person { background-position: -226px -382px; width: 20px; height: 20px; }
-.tasks-settings { background-position: -247px -382px; width: 20px; height: 20px; }
-.recom-article-green { background-position: -268px -382px; width: 19px; height: 23px; }
-.media-unchecked-box { background-position: -288px -382px; width: 18px; height: 18px; }
-.recom-tip-lightbulb { background-position: -1185px -111px; width: 14px; height: 23px; }
-.spacer { background-position: -1185px -135px; width: 1px; height: 30px; }
+.header-help { background-position: -204px -382px; width: 20px; height: 20px; }
+.header-settings { background-position: -225px -382px; width: 20px; height: 20px; }
+.tasks-blue-person { background-position: -246px -382px; width: 20px; height: 20px; }
+.tasks-gray-person { background-position: -267px -382px; width: 20px; height: 20px; }
+.tasks-settings { background-position: -288px -382px; width: 20px; height: 20px; }
+.recom-article-green { background-position: -565px -386px; width: 19px; height: 23px; }
+.media-unchecked-box { background-position: -585px -386px; width: 18px; height: 18px; }
+.footer-avatar-facebook { background-position: -604px -386px; width: 16px; height: 16px; }
+.footer-avatar-foursquare { background-position: -621px -386px; width: 16px; height: 16px; }
+.footer-avatar-twitter { background-position: -638px -386px; width: 16px; height: 16px; }
+.footer-avatar-youtube { background-position: -655px -386px; width: 16px; height: 16px; }
+.footer-pull-up { background-position: -1185px -111px; width: 14px; height: 9px; }
+.recom-tip-lightbulb { background-position: -1185px -121px; width: 14px; height: 23px; }
+.spacer { background-position: -1185px -145px; width: 1px; height: 30px; }

@@ -37,7 +37,7 @@
 
     .nav-bar {
         display:flex;
-        justify-content: center;
+        justify-content: space-evenly;
         align-items: center;
         grid-column: nb;
         text-align: center;
@@ -392,13 +392,15 @@
         align-items: center;
         text-align: center;
         background: rgb(247, 247, 247);
+        padding-left: 10%;
+    padding-right: 10%;
     }
 
     .footer-links{
-        width: 30%;
+        width: 40%;
         display: flex;
         flex-direction: row;
-        justify-content: space-evenly;
+        justify-content: center;
         align-items: center;
         border-right: solid;
         border-width: 1px;
@@ -406,10 +408,24 @@
         padding-top:1.5%;
         padding-bottom:1.5%;
     }
+
+    .f-link{
+        border-right:solid;
+        border-width: 1px;
+        border-color: gray;
+        padding-left: 1em;
+        padding-right: 1em;
+    }
+
+    .f-link2{
+        padding-left: 1em;
+        padding-right: 1em;
+    }
     .footer-text{
         width: 40%;
         display: flex;
         flex-direction: row;
+        align-items: center;
         justify-content: space-between;
         padding-top:1.5%;
         padding-bottom:1.5%;
@@ -420,17 +436,18 @@
         padding-right: 1%;
     }
     .footer-logout{
-        width:15%;
+        width:10%;
         display: flex;
         justify-content: space-evenly;
-        padding-top:1.5%;
-        padding-bottom:1.5%;
+        align-items: center;
+        /* padding-top:1.5%;
+        padding-bottom:1.5%; */
         border-right: solid;
         border-width: 1px;
         border-color: gray;
     }
     .footer-media{
-        width: 15%;
+        width: 10%;
         display: flex;
         justify-content: space-evenly;
         padding-top:1.5%;
