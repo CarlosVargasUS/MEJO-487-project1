@@ -93,18 +93,32 @@
     .title-announ {
         display: flex;
         justify-content: flex-start;
+        justify-content: center;
+        align-items: center;
         color:#fe7f13;
         border-right: solid;
         border-width: 1px;
         border-color: gray; 
+        padding-right: 1%;
+        padding-left: 1%;
     }
 
     .text-announ{
         display:flex;
         justify-content: center;
+        align-items: center;
         border-right: solid;
         border-width: 1px;
-        border-color:gray;  
+        border-color:gray;
+        padding-left: 1%; 
+        padding-right: 270px; 
+    }
+
+    .arrows-announ{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding-left: 1%;
     }
 
 
