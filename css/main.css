@@ -128,15 +128,29 @@
     }
 
     .side-titles{
+        display:flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
         padding-top:15px;
         padding-left: 25px;
         font-size: 1.6em;
         color: #2498f4;
     }
+
+    .settings{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-right: 7%;
+   
+    }
+
     
     .tasks-holder{
         display: flex;
         flex-direction: row;
+        align-items: center;
         border-bottom: solid;
         border-width: 1px;
         border-color: gray;
@@ -167,10 +181,59 @@
 
     .count{
         display: flex;
-        justify-content: flex-end;
+        justify-content: center;
+        justify-content: space-evenly; 
+        align-items: center; 
+        border: solid;
+        border-width: 1px;
+        border-color: gray;
+        padding-left: 4%;
+         padding-right: 4%;
+        padding-top: 2%;
+        padding-bottom: 2%; 
+
     }
 
+    /* SIDES RECOMMENDATIONS */
+    .recommendations{
+        display:flex;
+        flex-direction: column;
+    }
 
+    .recom-holder{
+        display: flex;
+        flex-direction: row;
+        border-bottom: dashed;
+        border-width: 1px;
+        border-color: gray;
+        padding:15px;
+    }
+
+    .recom-icon{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .recom-summary{
+        display: flex;
+        flex-direction: column;
+    }
+    .recom-article-green{
+        display:flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .recom-checklist-green{
+        display:flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .recom-tip-lightbulb{
+        display:flex;
+        justify-content: center;
+        align-items: center;
+    }
     /* BAR CHART STARTS HERE */
     .bar-analytics {
         grid-column: bar;
@@ -183,6 +246,7 @@
     .bar-summary{
         display: flex;
         flex-direction: row;
+        justify-content: space-between;
     }
 
     .bar-chart{
@@ -252,8 +316,6 @@
         border: solid;
         border-width: 1px;
         border-color: gray;
-        
-
     }
 
     /* DID YOU KNOW CARD */
