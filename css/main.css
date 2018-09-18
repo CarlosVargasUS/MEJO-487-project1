@@ -508,8 +508,12 @@ height: 35px;
 
     .know-banner{
         grid-column: know;
-        margin: 3%;
         font-family: 'PT Sans', sans-serif;
+        border-right: solid;
+        border-width: 0.5px;
+        border-color: gray;
+
+
     }
 
     .know {
@@ -517,11 +521,12 @@ height: 35px;
         flex-direction: row;
         justify-content: space-between;
         align-items: center;
-        border:solid;
         border-width: 1px;
         border-color:gray;
-        padding: 5%;
         background: #2498f4;
+        margin: 3%;
+        padding-top: 2%;
+        padding-bottom: 2%;
     }
 
     .know-holder{
@@ -552,6 +557,7 @@ height: 35px;
         /* justify-content: space-between; */
         justify-content: space-evenly;
         background: #2498f4;
+
     }
 
     /* FOOTER STARTS HERE */
@@ -565,7 +571,7 @@ height: 35px;
         padding-left: 10%;
         padding-right: 10%;
         font-family: 'PT Sans', sans-serif;
-        margin-top: 10%;
+        margin-top: 100px;
     }
 
     .footer-links{
