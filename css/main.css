@@ -26,16 +26,12 @@
         justify-content: flex-end;
         padding-right: 20%;
         background: #208de4;
-        text-align: center;
         font-family: 'Myriad Pro';
         color:white;
     }
     
     
 
-    .header-title.spacer.header-help.header-settings{
-        padding: 1%;
-    }
 
     .nav-bar {
         display:flex;
