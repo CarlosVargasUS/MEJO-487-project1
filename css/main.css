@@ -273,6 +273,15 @@
         overflow: hidden;
         font-family: 'PT Sans', sans-serif;
     }
+    
+    .bar-title{
+        font-size: 32pt;
+    }
+    
+    .bar-activity{
+        font-size: 13pt;
+    }
+    
 
     .bar-summary{
         display: flex;
@@ -313,6 +322,7 @@
     .media-holder{
         display: flex;
         flex-direction: row;
+        align-items: center;
     }
 
     .checkbox{
