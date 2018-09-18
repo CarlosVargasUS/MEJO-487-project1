@@ -26,7 +26,7 @@
         justify-content: flex-end;
         padding-right: 20%;
         background: #208de4;
-        font-family: 'Myriad Pro';
+        font-family: 'PT Sans', sans-serif;
         color:white;
         padding-top: 0.5%;
         padding-bottom: 0.5%;
@@ -64,6 +64,7 @@
         justify-content: space-between;
         background: #33cc66;
         text-align: center;
+        font-family: 'PT Sans', sans-serif;
     }
 
     .dash-title{
@@ -97,6 +98,7 @@
         border: solid;
         border-width: 1px;
         border-color:gray;
+        font-family: 'PT Sans', sans-serif;
 
     }
 
@@ -142,7 +144,7 @@
         border-bottom: solid;
         border-width: 1px;
         border-color:gray;
-        font-family: "Myriad Pro";
+        font-family: 'PT Sans', sans-serif;
     }
 
     .tasks{
@@ -220,6 +222,7 @@
     .recommendations{
         display:flex;
         flex-direction: column;
+        
     }
 
     .recom-holder{
@@ -259,6 +262,7 @@
         justify-content: center;
         align-items: center;
     }
+    
     /* BAR CHART STARTS HERE */
     .bar-analytics {
         grid-column: bar;
@@ -266,6 +270,7 @@
         flex-direction: column;
         padding: 10%;
         overflow: hidden;
+        font-family: 'PT Sans', sans-serif;
     }
 
     .bar-summary{
@@ -300,7 +305,8 @@
         border-right: solid;
         border-bottom: solid;
         border-width: 1px;
-        border-color: gray;      
+        border-color: gray; 
+        font-family: 'PT Sans', sans-serif;
     }
 
     .media-holder{
@@ -351,8 +357,7 @@
     .know-banner{
         grid-column: know;
         margin: 3%;
-
-
+        font-family: 'PT Sans', sans-serif;
     }
 
     .know {
@@ -406,7 +411,8 @@
         text-align: center;
         background: rgb(247, 247, 247);
         padding-left: 10%;
-    padding-right: 10%;
+        padding-right: 10%;
+        font-family: 'PT Sans', sans-serif;
     }
 
     .footer-links{
