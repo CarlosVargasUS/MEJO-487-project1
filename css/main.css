@@ -19,7 +19,7 @@
     /* HEADER STARTS HERE */
 
     .header {
-        grid-column: hd;
+        grid-area: hd;
         display: flex;
         flex-direction: row;
         align-items: center;
@@ -30,6 +30,8 @@
         font-family: 'Myriad Pro';
         color:white;
     }
+    
+    
 
     .header-title.spacer.header-help.header-settings{
         padding: 1%;
