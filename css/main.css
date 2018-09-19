@@ -609,6 +609,7 @@ height: 35px;
 
     .f-link:hover{
       text-decoration: underline;
+      cursor: pointer;
 
     }
 
@@ -620,6 +621,7 @@ height: 35px;
 
     .f-link2:hover{
       text-decoration: underline;
+      cursor: pointer;
     }
     .footer-text{
         width: 40%;
@@ -660,6 +662,7 @@ height: 35px;
         border-right: solid;
         border-width: 1px;
         border-color: gray;
+        cursor: pointer;;
     }
 
 
