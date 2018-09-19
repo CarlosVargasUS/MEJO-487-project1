@@ -16,6 +16,8 @@
             'ft ft ft ft ft ft';
     }
 
+
+
     /* HEADER STARTS HERE */
 
     .header {
@@ -116,7 +118,7 @@
         flex-direction: row;
         border: solid;
         border-width: 1px;
-        border-color:gray;
+        border-color: #999999;
         font-family: 'PT Sans', sans-serif;
 
     }
@@ -129,7 +131,7 @@
         color:#fe7f13;
         border-right: solid;
         border-width: 1px;
-        border-color: gray;
+        border-color: #999999;
         width: 20%;
     }
 
@@ -139,8 +141,9 @@
         align-items: center;
         border-right: solid;
         border-width: 1px;
-        border-color:gray;
+        border-color: #999999;
         width: 73%;
+        color:#999999;
 
     }
 
@@ -149,6 +152,14 @@
         justify-content: space-evenly;
         align-items: center;
         width: 7%;
+    }
+
+    .news-left-arrow:hover{
+      transform: scale(1.1);
+    }
+
+    .news-right-arrow:hover{
+      transform: scale(1.1);
     }
 
 
@@ -162,7 +173,7 @@
         border-left: solid;
         border-bottom: solid;
         border-width: 1px;
-        border-color:gray;
+        border-color: #999999;
         font-family: 'PT Sans', sans-serif;
     }
 
@@ -197,11 +208,12 @@
         align-items: center;
         border-bottom: solid;
         border-width: 1px;
-        border-color: gray;
+        border-color: #999999;
         padding-top: 15px;
         padding-bottom: 15px;
         justify-content: space-between;
         width: 100%;
+        cursor: pointer;
     }
 
     .tasks-holder:hover {
@@ -253,16 +265,12 @@
         display: flex;
         flex-direction: row;
         align-items: center;
-        border-bottom: dashed;
+        border-bottom: solid;
         border-width: 1px;
-        border-color: gray;
+        border-color: #999999;
         padding:15px;
+        color:#999999;
 
-    }
-
-    .recom-holder:hover{
-      filter: grayscale(90);
-      color: rgb(204, 204, 204);
     }
 
     .recom-icon{
@@ -271,26 +279,51 @@
         align-items: center;
     }
 
+    .recom-small{
+      font-size: 8pt;
+    }
+
     .recom-summary{
         display: flex;
         flex-direction: column;
         padding-left: 5%;
         width: 100%;
     }
+
+    .recom-summary:hover{
+      color: black;
+    }
     .recom-article-green{
         display:flex;
         justify-content: center;
         align-items: center;
     }
+
+    .recom-article-green:hover{
+      filter: grayscale(90);
+      color: rgb(204, 204, 204);
+    }
+
     .recom-checklist-green{
         display:flex;
         justify-content: center;
         align-items: center;
     }
+
+    .recom-checklist-green:hover{
+      filter: grayscale(90);
+      color: rgb(204, 204, 204);
+    }
+
     .recom-tip-lightbulb{
         display:flex;
         justify-content: center;
         align-items: center;
+    }
+
+    .recom-tip-lightbulb:hover{
+      filter: grayscale(90);
+      color: rgb(204, 204, 204);
     }
 
     /* BAR CHART STARTS HERE */
@@ -303,7 +336,7 @@
         font-family: 'PT Sans', sans-serif;
         border-right: solid;
         border-width: 1px;
-        border-color: gray;
+        border-color: #999999;
     }
 
     .bar-title{
@@ -399,7 +432,7 @@ height: 35px;
         align-items: center;
         border-right: solid;
         border-width: 1px;
-        border-color: gray;
+        border-color: #999999;
     }
 
     /* SOCIAL MEDIA STARTS HERE */
@@ -412,7 +445,7 @@ height: 35px;
         padding: 2em;
         border-right: solid;
         border-width: 1px;
-        border-color: gray;
+        border-color: #999999;
         font-family: 'PT Sans', sans-serif;
     }
 
@@ -480,7 +513,7 @@ height: 35px;
         border-bottom: solid;
         border-top:solid;
         border-width: 1px;
-        border-color: gray;
+        border-color: #999999;
           font-family: 'PT Sans', sans-serif;
     }
 
@@ -491,7 +524,7 @@ height: 35px;
         align-items: center;
         border: solid;
         border-width: 1px;
-        border-color: gray;
+        border-color: #999999;
         margin: 2%;
         padding-bottom: 2%;
     }
@@ -547,7 +580,7 @@ height: 35px;
         font-family: 'PT Sans', sans-serif;
         border-right: solid;
         border-width: 0.5px;
-        border-color: gray;
+        border-color: #999999;
 
 
     }
@@ -558,7 +591,7 @@ height: 35px;
         justify-content: space-between;
         align-items: center;
         border-width: 1px;
-        border-color:gray;
+        border-color: #999999;
         background: #2498f4;
         margin: 3%;
         padding-top: 2%;
@@ -579,11 +612,13 @@ height: 35px;
     .know-arrow-left{
         display:flex;
         justify-content: flex-start;
+        cursor: pointer;
     }
 
     .know-arrow-right{
         display:flex;
         justify-content: flex-end;
+        cursor: pointer;
     }
     .ads {
         grid-column: ads;
@@ -593,6 +628,7 @@ height: 35px;
         /* justify-content: space-between; */
         justify-content: space-evenly;
         background: #2498f4;
+        cursor: pointer;
 
     }
 
@@ -625,7 +661,7 @@ height: 35px;
         align-items: center;
         border-right: solid;
         border-width: 1px;
-        border-color: gray;
+        border-color: #999999;
         padding-top:1.5%;
         padding-bottom:1.5%;
     }
@@ -633,7 +669,7 @@ height: 35px;
     .f-link{
         border-right:solid;
         border-width: 1px;
-        border-color: gray;
+        border-color: #999999;
         padding-left: 1em;
         padding-right: 1em;
         color: rgb(153, 153, 153);
@@ -666,7 +702,7 @@ height: 35px;
         padding-bottom:1.5%;
         border-right: solid;
         border-width: 1px;
-        border-color: gray;
+        border-color: #999999;
         padding-left: 2%;
         padding-right: 1%;
     }
@@ -681,7 +717,7 @@ height: 35px;
         padding-bottom:1.5%; */
         border-right: solid;
         border-width: 1px;
-        border-color: gray;
+        border-color: #999999;
     }
 
     .footer-avatar{cursor: pointer;}
@@ -694,7 +730,7 @@ height: 35px;
         padding-bottom:1.5%;
         border-right: solid;
         border-width: 1px;
-        border-color: gray;
+        border-color: #999999;
         cursor: pointer;;
     }
 
