@@ -422,7 +422,9 @@ height: 35px;
         align-items: center;
     }
 
-    .checkbox{
+    /* CREATING THE CHECK BOXES */
+
+    /* .checkbox{
         -webkit-appearance: none;
         background-color: #fafafa;
         border: 1px solid #cacece;
@@ -431,9 +433,40 @@ height: 35px;
         border-radius: 3px;
         display: inline-block;
         position: relative;
+
+    } */
+
+    .checkbox {
+      display: flex;
+      flex-direction: row;
+      /* padding-left: 1em; */
+      width: 20px;
+      height: 20px;
     }
 
-    /* Contacts and Customers starts here */
+    .checkbox input[type=checkbox] {
+        display:none;
+    }
+
+    /* empty checkbox */
+    .checkbox input[type=checkbox] + label {
+        width: 2em;
+        background: url(../img/media-unchecked-box.png) no-repeat center;
+    }
+
+    /* checkmarked box */
+    .checkbox input[type=checkbox]:checked + label {
+        background: url(../img/media-checked-box.png) no-repeat center;
+    }
+
+    /* SOCIAL NETWORKS */
+
+    .social-network{
+      padding-top: 7%;
+      padding-left: 5%;
+    }
+
+    /* CONTACTS and Customers starts here */
     .info-cards {
         grid-area: cards;
         display: flex;
